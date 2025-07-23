@@ -1,6 +1,6 @@
-﻿# Machine_learning_Model
+#Machine_learning_Model
 
- Plant Disease Predictor Web Application
+Plant Disease Predictor Web Application
 A user-friendly web application built with Flask and Scikit-learn to predict the likelihood of plant disease based on environmental factors. The app features a clean interface that allows even non-technical users to get predictions by selecting simple, descriptive options.
 
 🌟 Features
@@ -21,6 +21,10 @@ Category
 
 Technology
 
+Language
+
+Python
+
 Backend
 
 Flask
@@ -32,10 +36,6 @@ Scikit-learn, Pandas, Joblib
 Frontend
 
 HTML5, Bootstrap 5
-
-Language
-
-Python
 
 🚀 How the Tech is Used to the Fullest
 This project is designed to use each technology for its core strengths, creating an efficient and cohesive application.
@@ -95,16 +95,4 @@ pip install Flask pandas scikit-learn joblib
 
 4. Add the Dataset
 
-Place your plant_disease_dataset.csv file in the root directory of the project.
-
-▶️ How to Run the Application
-Once the setup is complete, you can start the application with a single command:
-
-python app.py
-
-On the very first run, the script will automatically train the machine learning model and save it as plant_disease_model.pkl. You will see the training progress in the terminal.
-
-On subsequent runs, the script will find the existing model and load it directly.
-
-After starting the script, open your web browser and navigate to:
-https://www.google.com/search?q=http://127.0.0.1:5000
+Place your `plant_disease_dataset
